@@ -2,22 +2,22 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
-        versionCode = "37100"
-        android-versionCode="37100"
-        version   = "3.7.1">
-    <name>Moodle</name>
+        id        = "com.goankh.app"
+        versionCode = "1000"
+        android-versionCode="1000"
+        version   = "1.0.0">
+    <name>GoAnkh</name>
 
     <description>
-        Moodle official app
+        Application Officiel GoAnkh
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://moodle.com" email="app.goankh@gmail.com">
+        Equipe GoAnkh
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.7.1</string>
+        <string>1.0.0</string>
     </edit-config>
 
     <gap:platform name="ios" />
